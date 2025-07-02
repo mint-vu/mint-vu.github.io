@@ -1,6 +1,6 @@
 ---
 name: Robert Sheng
-position: undergrad
+position: alumni
 avatar: RSheng.jpg
 twitter: MintLab
 ---
