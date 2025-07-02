@@ -1,6 +1,6 @@
 ---
 name: Kaiwen Shi
-position: undergrad
+position: alumni
 avatar: KaiwenShi.jpg
 twitter:
 ---

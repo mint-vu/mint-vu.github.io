@@ -99,7 +99,8 @@ permalink: /people/
 
 | Who are they                                                 | When were they here               | Where they went                                              |
 | :----------------------------------------------------------- | :-------------------------------- | :----------------------------------------------------------- |
-| [Abihith Kothapalli](https://www.linkedin.com/in/rana-m-shahroz/) | Undergrad (Fall 2023-Spring 2025) | PhD Student in the Computer Science Department at Carnegie Mellon University |
+| [Abihith Kothapalli](https://abi-kothapalli.github.io/) | Undergrad (Fall 2023-Spring 2025) | PhD Student in the Machine Learning Department at Carnegie Mellon University |
+| [Kaiwen Shi](https://kwfredshi.github.io/) | Undergrad (Fall 2023-Spring 2025) | PhD Student in Computer Science, Vanderbilt University |
 | [Rana Muhammad Shahroz Khan](https://www.linkedin.com/in/rana-m-shahroz/) | Undergrad (Fall 2022-Summer 2024) | PhD Student in the Computer Science Department at UNC        |
 | [Zhanqi Zhu](https://www.linkedin.com/in/zhanqi-zhu/)        | Undergrad (Fall 2022-Summer 2024) | M.Sc. Student in the Computer Science Department at USC      |
 | [Zihao (Harry) Zhu](https://www.linkedin.com/in/zihao-wu-a475ab262/) | Undergrad (Fall 2022-Summer 2023) | Master of Science Student in the Computer Science Department at Duke University |
