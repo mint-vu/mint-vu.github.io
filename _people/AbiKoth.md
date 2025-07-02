@@ -1,6 +1,6 @@
 ---
 name: Abi Kothapalli
-position: undergrad
+position: alumni
 avatar: Abikooth.png
 twitter: MintLab
 ---
