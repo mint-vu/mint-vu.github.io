@@ -1,8 +1,11 @@
+- date: 2025-06-01
+  details: 'Welcome to our newest lab member, <a href="/people/Ping_He/index.html">Ping He</a>!'
+
 - date: 2025-05-08
   details: '<a href="/people/AbiKoth/index.html">Abi</a> was selected as the <a href="https://engineering.vanderbilt.edu/2025/05/08/engineering-school-bestows-honors-on-2025-graduating-seniors/">Banner Bearer</a> for Vanderbilt School of Engineering.'
 
 - date: 2025-05-01
-  details: '<a href="/people/Ashkan_Shahbazi/index.html">Ashkan</a>\'s paper on doubly stochastic attention got accepted to ICML 2025.'
+  details: '<a href="/people/Ashkan_Shahbazi/index.html">Ashkan</a>''s paper on doubly stochastic attention got accepted to ICML 2025.'
 
 - date: 2025-04-23
   details: '<a href="/people/Chayne_Thrash/index.html">Chayne</a> and <a href="/people/AbiKoth/index.html">Abi</a> presented 5 papers at ICLR 2025, Singapore.'
@@ -17,7 +20,7 @@
   details: '<a href="/people/AbiKoth/index.html">Abi</a> was selected as a finalist for the <a href="https://cra.org/about/awards/outstanding-undergraduate-researcher-award/">CRA Outstanding Undergraduate Researcher Award</a>.'
 
 - date: 2025-02-11
-  details: 'One of <a href="/people/xinran_liu/index.html">Eva</a>\'s two papers, accepted at ICLR, was selected as a Spotlight paper!'
+  details: 'One of <a href="/people/xinran_liu/index.html">Eva</a>''s two papers, accepted at ICLR, was selected as a Spotlight paper!'
 
 - date: 2024-05-08
   details: '<a href="/people/Ali_Abbasi/index.html">Ali</a> passed his Qualifying Exam with stellar feedback from the committee.'
@@ -35,10 +38,10 @@
   details: '<a href="/people/AbiKoth/index.html">Abi</a> won the university-wide research poster award in Engineering, Computer Science, Data Science, and Mathematics.'
 
 - date: 2024-02-24
-  details: '<a href="/people/Ali_Abbasi/index.html">Ali</a>\'s paper, titled <a href="https://arxiv.org/pdf/2311.11995.pdf">"BrainWash - A Poisoning Attack to Forget in Continual Learning"</a> got accepted to <a href="https://cvpr.thecvf.com/">CVPR 2024</a>!'
+  details: '<a href="/people/Ali_Abbasi/index.html">Ali</a>''s paper, titled <a href="https://arxiv.org/pdf/2311.11995.pdf">"BrainWash - A Poisoning Attack to Forget in Continual Learning"</a> got accepted to <a href="https://cvpr.thecvf.com/">CVPR 2024</a>!'
 
 - date: 2024-02-06
-  details: '<a href="/people/xinran_liu/index.html">Eva</a>\'s paper, titled <a href="https://ieeexplore.ieee.org/abstract/document/10414092/authors#authors">"Teaching Networks to Solve Optimization Problems"</a> got published in IEEE ACCESS!'
+  details: '<a href="/people/xinran_liu/index.html">Eva</a>''s paper, titled <a href="https://ieeexplore.ieee.org/abstract/document/10414092/authors#authors">"Teaching Networks to Solve Optimization Problems"</a> got published in IEEE ACCESS!'
 
 - date: 2024-01-16
   details: 'Our paper titled, <a href="https://openreview.net/pdf?id=49z97Y9lMq">"LCOT - Linearized Circular Optimal Transport"</a> got accepted to ICLR 2024.'
@@ -68,13 +71,13 @@
   details: 'A big congratulations to <a href="/people/ZihaoWu/index.html">Harry</a> for his selection to the Vanderbilt Institute for Surgery and Engineering (VISE) Summer Fellows Program!'
 
 - date: 2022-03-12
-  details: '<a href="/people/Ali_Abbasi/index.html">Ali</a>\'s new preprint, titled "<a href="https://arxiv.org/pdf/2203.06514.pdf">Sparsity and Heterogeneous Dropout for Continual Learning in the Null Space of Neural Activations</a>" is now available online. This is a joint work with UC-Davis and Johns Hopkins University.'
+  details: '<a href="/people/Ali_Abbasi/index.html">Ali</a>''s new preprint, titled "<a href="https://arxiv.org/pdf/2203.06514.pdf">Sparsity and Heterogeneous Dropout for Continual Learning in the Null Space of Neural Activations</a>" is now available online. This is a joint work with UC-Davis and Johns Hopkins University.'
 
 - date: 2022-02-08
-  details: '02/08/2022 - <a href="./people/xinran_liu/index.html">Eva</a>\'s new preprint, titled "<a href="https://arxiv.org/pdf/2202.04104.pdf">Teaching Networks to Solve Optimization Problems</a>" is now available online. This is a joint work with UT-Austin.'
+  details: '02/08/2022 - <a href="./people/xinran_liu/index.html">Eva</a>''s new preprint, titled "<a href="https://arxiv.org/pdf/2202.04104.pdf">Teaching Networks to Solve Optimization Problems</a>" is now available online. This is a joint work with UT-Austin.'
 
 - date: 2022-02-08
-  details: '02/08/2022 - <a href="./people/bryan_lu/index.html">Bryan</a>\'s new preprint, titled "<a href="https://arxiv.org/pdf/2112.05872.pdf">SLOSH: Set LOcality Sensitive Hashing via Sliced-Wasserstein Embeddings</a>" is now available online.'
+  details: '02/08/2022 - <a href="./people/bryan_lu/index.html">Bryan</a>''s new preprint, titled "<a href="https://arxiv.org/pdf/2112.05872.pdf">SLOSH: Set LOcality Sensitive Hashing via Sliced-Wasserstein Embeddings</a>" is now available online.'
 
 - date: 2021-11-24
   details: 'Soheil Kolouri delivered a talk at the One World Seminar on the Mathematics of Machine Learning focused on "Wasserstein Embeddings." (<a href="https://www.youtube.com/watch?v=xs9uibPODGk">Video</a>)'

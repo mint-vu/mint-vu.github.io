@@ -10,6 +10,31 @@ We try to include links for all of our papers. Some of the links open PDFs, othe
 <hr>
 
 # Selected Publications
+## 2025
+
+_ESPformer: Doubly-Stochastic Attention with Expected Sliced Transport Plans_<br>
+Shahbazi, A., Akbari, E., Salehi, D., Liu, X., NaderiAlizadeh, N., Kolouri, S.<br>
+ICML, 2025. ([Article](https://openreview.net/forum?id=Uq70mJuUB8))
+
+_MCNC: Manifold-Constrained Reparameterization for Neural Compression_<br>
+Thrash, C., Andreas, R., Abbasi, A., Nooralinejad, P., Koohpayegani, S.A., Pirsiavash, H., Kolouri, S.<br>
+ICLR, 2025. ([Article](https://openreview.net/forum?id=VMV8gefvq8))
+
+_Wasserstein task embedding for measuring task similarities_<br>
+Liu, X., Bai, Y., Lu, Y., Soltoggio, A., Kolouri, S.<br>
+Neural Networks, 2025. ([Article](https://www.sciencedirect.com/science/article/pii/S0893608024007202))
+
+_Linear Spherical Sliced Optimal Transport: A Fast Metric for Comparing Spherical Data_<br>
+Liu, X., Bai, Y., Diaz Martin, R., Shi, K., Shahbazi, A., Landman, B.A., Chang, C., Kolouri, S.<br>
+ICLR, 2025. ([Article](https://openreview.net/forum?id=fgUFZAxywx))
+
+_Linear Partial Gromov-Wasserstein Embedding_<br>
+Bai, Y., Kothapalli, A., Du, H., Diaz Martin, R., Kolouri, S.<br>
+ICLR, 2025. ([Article](https://openreview.net/forum?id=BA1eG7vCNb))
+
+_Expected Sliced Transport Plans_<br>
+Liu, X., Diaz Martin, R., Bai, Y., Shahbazi, A., Thorpe, M., Aldroubi, A., Kolouri, S.<br>
+ICLR, 2025. ([Article](https://openreview.net/forum?id=P7O1Vt1BdU))
 
 ## 2024
 
