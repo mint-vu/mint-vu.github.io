@@ -104,7 +104,7 @@ permalink: /people/
 | [Kaiwen Shi](https://kwfredshi.github.io/) | Undergrad (Fall 2023-Spring 2025) | PhD Student in Computer Science, Vanderbilt University |
 | [Rana Muhammad Shahroz Khan](https://www.linkedin.com/in/rana-m-shahroz/) | Undergrad (Fall 2022-Summer 2024) | PhD Student in the Computer Science Department at UNC        |
 | [Zhanqi Zhu](https://www.linkedin.com/in/zhanqi-zhu/)        | Undergrad (Fall 2022-Summer 2024) | M.Sc. Student in the Computer Science Department at USC      |
-| [Zihao (Harry) Zhu](https://www.linkedin.com/in/zihao-wu-a475ab262/) | Undergrad (Fall 2022-Summer 2023) | Master of Science Student in the Computer Science Department at Duke University |
+| [Zihao (Harry) Wu](https://www.linkedin.com/in/zihao-wu-a475ab262/) | Undergrad (Fall 2022-Summer 2023) | Master of Science Student in the Computer Science Department at Duke University |
 | [Yuzhe (Bryan) Lu](https://www.linkedin.com/in/bryan-lu-419623180/) | Undergrad (Fall 2021-Summer 2022) | Master of Science Student in the Computer Science Department at CMU |
 
 {% endif %}
