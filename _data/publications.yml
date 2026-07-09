@@ -1,3 +1,12 @@
+- title: 'Zero Sum SVD: Balancing Loss Sensitivity for Low Rank LLM Compression'
+  authors: Abbasi, A., Thrash, C., Qin, H., Sharma, S., Seifi, S. and Kolouri, S.
+  venue: ICML, 2026
+  year: 2026
+  links:
+    - label: Article
+      url: https://icml.cc/virtual/2026/poster/61159
+    - label: Code
+      url: https://github.com/mint-vu/Zero-Sum-SVD
 - title: 'Neural-Augmented Kelvinlet: Real-Time Soft Tissue Deformation with Multiple Graspers'
   authors: Ashkan Shahbazi, Kyvia Pereira, Jon S Heiselman, Elaheh Akbari, Annie C Benson, Sepehr Seifi, Xinyuan Liu, Garrison L Johnston, Erwin Terpstra, Anne Draaisma, Jan-Jaap Severes, Jie Ying Wu, Nabil Simaan, Michael L Miga, Soheil Kolouri
   venue: AAAI, 2026
