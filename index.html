@@ -35,7 +35,12 @@ layout: default
     <a class="side" href="{{ '/publications/' | relative_url }}">all publications →</a>
   </div>
   <div class="pub-cards">
-    {% assign recent = site.data.publications | sort: "year" | reverse %}
+    {% assign pub_years = site.data.publications | map: "year" | uniq | sort | reverse %}
+    {% assign recent = "" | split: "" %}
+    {% for y in pub_years %}
+      {% assign in_year = site.data.publications | where: "year", y %}
+      {% assign recent = recent | concat: in_year %}
+    {% endfor %}
     {% for p in recent limit: home.publications_count %}
       {% if p.links.first %}
       <a class="pub-card" href="{{ p.links.first.url }}">

@@ -9,12 +9,11 @@ layout: default
   </header>
   <p class="scholar-note">For citation metrics, see our <a href="{{ site.scholar }}">Google Scholar profile</a>. We include links for all of our papers — if you cannot access one, <a href="mailto:{{ site.email }}">let us know</a>.</p>
 
-  {% assign pubs = site.data.publications | sort: "year" | reverse %}
-  {% assign years = pubs | map: "year" | uniq %}
+  {% assign years = site.data.publications | map: "year" | uniq | sort | reverse %}
   {% for y in years %}
   <h2 class="year">{{ y }}</h2>
   <div class="entries">
-      {% assign in_year = pubs | where: "year", y %}
+      {% assign in_year = site.data.publications | where: "year", y %}
       {% for p in in_year %}
       <div class="pub-entry">
         <p class="title">{{ p.title }}</p>
