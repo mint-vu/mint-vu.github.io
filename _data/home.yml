@@ -3,7 +3,7 @@ news_count: 8
 publications_count: 6
 hero:
   image: /images/lab_photos/IMG_1989.jpg
-  caption: The MINT Lab at Summer 2026
+  caption: MINT Lab, Summer 2026
 talks:
   - title: One World Mathematics of Machine Learning — Wasserstein Embeddings
     youtube_id: xs9uibPODGk
