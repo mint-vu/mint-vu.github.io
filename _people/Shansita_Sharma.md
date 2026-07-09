@@ -1,10 +1,13 @@
 ---
 name: Shansita Das Sharma
 position: undergrad
-avatar: ShansitaSharma.jpg
 title: Undergraduate Student
+avatar: ShansitaSharma.jpg
 email: shansita.d.sharma@vanderbilt.edu
 website: https://shansitads.github.io/
+now: Ph.D. student at USC
+office: ''
+mail: ''
 fun_fact: Shansita enjoys playing badminton and learning random bits from different languages!
 ---
 
