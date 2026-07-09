@@ -7,8 +7,22 @@
       url: https://icml.cc/virtual/2026/poster/61159
     - label: Code
       url: https://github.com/mint-vu/Zero-Sum-SVD
+- title: Diffusion-Augmented Coreset Expansion for Scalable Dataset Distillation
+  authors: Abbasi, A., Imani, S., An, C., Mahalingam, G., Shrivastava, H., Diesendruck, M., Pirsiavash, H., Sharma, P. and Kolouri, S.
+  venue: CVPR Workshop SynData4CV, 2026
+  year: 2026
+  links:
+    - label: Article
+      url: https://openreview.net/forum?id=y1I3sSio6a
+- title: 'One category one prompt: Dataset distillation using diffusion models'
+  authors: Abbasi, A., Shahbazi, A., Pirsiavash, H. and Kolouri, S.
+  venue: CVPR Workshop SynData4CV, 2026
+  year: 2026
+  links:
+    - label: Article
+      url: https://openreview.net/forum?id=lZ9TJfCFrw
 - title: 'Neural-Augmented Kelvinlet: Real-Time Soft Tissue Deformation with Multiple Graspers'
-  authors: Ashkan Shahbazi, Kyvia Pereira, Jon S Heiselman, Elaheh Akbari, Annie C Benson, Sepehr Seifi, Xinyuan Liu, Garrison L Johnston, Erwin Terpstra, Anne Draaisma, Jan-Jaap Severes, Jie Ying Wu, Nabil Simaan, Michael L Miga, Soheil Kolouri
+  authors: Shahbazi, A., Pereira, K., Heiselman, J.S., Akbari, E., Benson, A.C., Seifi, S., Liu, X., Johnston, G.L., Terpstra, E., Draaisma, A., Severes, J.J., Wu, J. Y., Simaan, N., Miga, M. L., and Kolouri, S.
   venue: AAAI, 2026
   year: 2026
   links:
