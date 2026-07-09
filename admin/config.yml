@@ -3,7 +3,7 @@ backend:
   repo: mint-vu/mint-vu.github.io
   branch: main
   # After deploying the auth worker (see SETUP.md), set its URL here:
-  base_url: https://YOUR-AUTH-WORKER.workers.dev
+  base_url: https://sveltia-cms-auth.soheil-kolouri.workers.dev
 
 site_url: https://mint-vu.github.io
 logo_url: https://mint-vu.github.io/images/logo/logo_square.png
