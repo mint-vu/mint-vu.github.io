@@ -1,10 +1,13 @@
 ---
 name: Hunter Qin
-position: undergrad
-avatar: HunterQin.jpg
+position: alumni
 title: Undergraduate Student
+avatar: HunterQin.jpg
 email: haoran.qin@vanderbilt.edu
 website: https://niqretnuh.github.io
+now: Ph.D. University at Duke University
+office: ''
+mail: ''
 fun_fact: Hunter has played classical piano at the Kennedy Center and Sydney Opera House.
 ---
 
