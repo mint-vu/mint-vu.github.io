@@ -87,7 +87,7 @@ layout: default
     const id = btn.dataset.yt;
     const f = document.createElement('iframe');
     f.src = 'https://www.youtube.com/embed/' + id + '?autoplay=1';
-    f.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+    f.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen; web-share';
     f.allowFullscreen = true;
     const holder = document.createElement('div'); holder.className = 'frame';
     holder.appendChild(f);
