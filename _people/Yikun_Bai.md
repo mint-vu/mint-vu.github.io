@@ -1,10 +1,13 @@
 ---
 name: Yikun Bai
-position: postdoc
-avatar: YikunBai.jpeg
+position: alumni
 title: Postdoctoral Research Assistant
+avatar: YikunBai.jpeg
 email: yikun.bai@vanderbilt.edu
 website: https://yikun-baio.github.io
+now: Postdoctoral Research Assistant - Physical AI Fellow - Purdue University
+office: ''
+mail: ''
 fun_fact: Yikun likes watching animes!
 ---
 
