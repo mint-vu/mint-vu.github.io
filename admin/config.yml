@@ -60,6 +60,7 @@ collections:
             label: "News items"
             label_singular: "News item"
             widget: list
+            add_to_top: true
             summary: "{{fields.date}} — {{fields.details}}"
             fields:
               - { name: date, label: Date, widget: datetime, format: "YYYY-MM-DD", time_format: false }
