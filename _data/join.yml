@@ -1,0 +1,49 @@
+# Join page content — editable via the CMS (Join us page).
+title: Join Us
+intro: |
+  The MINT Lab is always looking for curious and motivated researchers. Current openings are
+  listed below, and general application instructions are at the [bottom of this page](#how-to-apply).
+
+openings:
+  - title: Ph.D. Students
+    body: |
+      We are recruiting motivated Ph.D. students with a strong mathematical background to work
+      with us on topics aligned with the lab's [research directions](/about/). Successful
+      applicants typically have solid foundations in linear algebra, probability, and
+      optimization, along with programming experience in Python and modern deep learning
+      frameworks.
+
+      Prospective Ph.D. students should apply through the [Vanderbilt CS graduate
+      program](https://engineering.vanderbilt.edu/cs/) and are encouraged to contact Soheil
+      directly — see [How to Apply](#how-to-apply), using **"PhD"** in the subject line.
+
+  - title: Master's & Undergraduate Students
+    body: |
+      Master's and undergraduate students within Vanderbilt University are always welcome to get
+      involved in the lab's research. If you are interested, reach out following the instructions
+      in [How to Apply](#how-to-apply), using **"MS"** or **"BS"** in the subject line, and
+      briefly describe the research directions that interest you.
+
+  - title: Visiting Scholars
+    body: |
+      We welcome visiting scholars whose research interests align with the lab. Contact Soheil
+      following the instructions in [How to Apply](#how-to-apply), using **"Visiting"** in the
+      subject line, and include your expected visit dates and funding situation.
+
+apply:
+  title: How to Apply
+  body: |
+    If you are interested in being part of the MINT Lab, please contact Soheil at:
+    soheil (dot) kolouri (at) vanderbilt (dot) edu. Below are some general suggestions when
+    contacting via email.
+
+    Please...
+
+    - Use a subject line as follows: <span style="color:blue">*{$position}* Position \- *{$YourName}*</span>
+      - where <span style="color:blue">*{$position}*</span> should be **"Postdoc"**, **"PhD"**, **"MS"**, **"BS"**, or **"Visiting"**
+        - e.g., If I were applying for a PhD position I would use the subject <span style="color:blue">"PhD Position - Soheil Kolouri"</span>
+    - Provide a few sentences to introduce yourself and express your interest in the position
+    - Attach your CV/Resume, including the following (if applicable):
+      - GPA/ranking, GRE/TOEFL scores, publications/research experience, selected relevant courses you have taken
+
+    Thank you and I look forward to hearing from you!

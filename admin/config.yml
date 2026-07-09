@@ -143,8 +143,22 @@ collections:
           - { name: body, label: Content, widget: markdown }
       - name: join
         label: "Join us page"
-        file: "join.md"
+        file: "_data/join.yml"
         fields:
-          - { name: title, label: Title, widget: string }
-          - { name: permalink, label: Permalink, widget: hidden, default: /join/ }
-          - { name: body, label: Content, widget: markdown }
+          - { name: title, label: "Page title", widget: string, default: "Join Us" }
+          - { name: intro, label: "Intro text", widget: markdown }
+          - name: openings
+            label: Openings
+            label_singular: Opening
+            widget: list
+            add_to_top: true
+            summary: "{{fields.title}}"
+            fields:
+              - { name: title, label: "Position title (e.g. 'Ph.D. Students', 'Postdoctoral Researcher in X')", widget: string }
+              - { name: body, label: "Description", widget: markdown }
+          - name: apply
+            label: "How to apply section"
+            widget: object
+            fields:
+              - { name: title, label: Title, widget: string, default: "How to Apply" }
+              - { name: body, label: Content, widget: markdown }

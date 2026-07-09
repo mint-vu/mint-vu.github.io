@@ -1,0 +1,39 @@
+---
+layout: default
+title: Join us
+permalink: /join/
+---
+{% assign join = site.data.join %}
+<main class="page wrap">
+  <header class="page-header">
+    <h1>{{ join.title | default: "Join Us" }}</h1>
+  </header>
+  <div class="prose">
+    {{ join.intro | markdownify }}
+  </div>
+
+  {% if join.openings and join.openings.size > 0 %}
+  <section class="openings-index">
+    <h2>Openings</h2>
+    <ul>
+      {% for o in join.openings %}
+      <li><a href="#{{ o.title | slugify }}">{{ o.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  {% for o in join.openings %}
+  <section class="opening" id="{{ o.title | slugify }}">
+    <h2>{{ o.title }}</h2>
+    <div class="prose">{{ o.body | markdownify }}</div>
+  </section>
+  {% endfor %}
+  {% endif %}
+
+  {% if join.apply %}
+  <section class="opening" id="how-to-apply">
+    <h2>{{ join.apply.title | default: "How to Apply" }}</h2>
+    <div class="prose">{{ join.apply.body | markdownify }}</div>
+  </section>
+  {% endif %}
+</main>
