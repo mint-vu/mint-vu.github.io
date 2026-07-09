@@ -1,82 +1,85 @@
-# News & announcements — editable via the CMS (News). Newest items belong at the top.
 items:
-- date: 2026-07-08
-  details: '[Chayne](https://mint-vu.github.io/people/chayne-thrash/) presented our work on[ Zero-Sum SVD](https://icml.cc/virtual/2026/poster/61159) at ICML 2026.'
-- date: 2026-05-27
-  details: '[Eva](https://xinranliueva.github.io/) defended her dissertation with stellar comments from her committee members. We have a new doctor in the house!'
-- date: 2026-01-19
-  details: 'Our paper “[EMPEROR: Efficient Moment-Preserving Representation of Distributions](https://arxiv.org/pdf/2509.16379)” was accepted at ICASSP2026! Congratulations, [Eva](https://xinranliueva.github.io/) and [Shansita](https://shansitads.github.io/).'
-- date: 2025-11-08
-  details: Congratulations to [Ashkan](/people/ashkan-shahbazi/) and [Ela](/people/elaheh-akbari/) for acceptance of their paper on [Neural-Augmented Kelvinlet for Real-Time Soft Tissue Deformation Modeling](https://arxiv.org/pdf/2506.08043) to AAAI 2026.
-- date: 2025-11-08
-  details: Congratulations to [Eva](/people/xinran-liu/) for acceptance of her paper on [Policy Search, Retrieval, and Composition via Task Similarity in Collaborative Agentic System](https://arxiv.org/abs/2506.05577) to AAAI 2026.
-- date: 2025-06-01
-  details: Welcome to our newest lab member, [Ping He](/people/ping-he/)!
-- date: 2025-05-08
-  details: '[Abi](/people/abikoth/) was selected as the [Banner Bearer](https://engineering.vanderbilt.edu/2025/05/08/engineering-school-bestows-honors-on-2025-graduating-seniors/) for Vanderbilt School of Engineering.'
-- date: 2025-05-01
-  details: '[Ashkan](/people/ashkan-shahbazi/)''s paper on doubly stochastic attention got accepted to ICML 2025.'
-- date: 2025-04-23
-  details: '[Chayne](/people/chayne-thrash/) and [Abi](/people/abikoth/) presented 5 papers at ICLR 2025, Singapore.'
-- date: 2025-04-08
-  details: '[Eva](/people/xinran-liu/) passed her Qualifying Exam with stellar feedback from the committee.'
-- date: 2025-04-01
-  details: '[Chayne](/people/chayne-thrash/) got an internship from Apple for Summer 2025.'
-- date: 2025-03-27
-  details: '[Abi](/people/abikoth/) was selected as a finalist for the [CRA Outstanding Undergraduate Researcher Award](https://cra.org/about/awards/outstanding-undergraduate-researcher-award/).'
-- date: 2025-02-11
-  details: One of [Eva](/people/xinran-liu/)'s two papers, accepted at ICLR, was selected as a Spotlight paper!
-- date: 2024-05-08
-  details: '[Ali](/people/ali-abbasi/) passed his Qualifying Exam with stellar feedback from the committee.'
-- date: 2024-05-01
-  details: Congratulations to [Huy](/people/huy-tran/) and the team for acceptance of their paper, ["Stereographic Spherical Sliced Wasserstein Distances"](https://arxiv.org/pdf/2402.02345), to ICML 2024.
-- date: 2024-04-25
-  details: Our paper titled, ["Statistical Context Detection for Deep Lifelong Reinforcement Learning"](https://openreview.net/pdf?id=1XA7nvmxNb) got accepted to CoLLAs 2024.
-- date: 2024-03-27
-  details: '[Abi](/people/abikoth/) won the university-wide research poster award in Engineering, Computer Science, Data Science, and Mathematics.'
-- date: 2024-03-22
-  details: Our collaborative paper on ["A Collective AI via Lifelong Learning and Sharing at the Edge"](https://www.nature.com/articles/s42256-024-00800-2) is now published at [Nature Machine Intelligence](https://www.nature.com/natmachintell/).
-- date: 2024-02-24
-  details: '[Ali](/people/ali-abbasi/)''s paper, titled ["BrainWash - A Poisoning Attack to Forget in Continual Learning"](https://arxiv.org/pdf/2311.11995.pdf) got accepted to [CVPR 2024](https://cvpr.thecvf.com/)!'
-- date: 2024-02-06
-  details: '[Eva](/people/xinran-liu/)''s paper, titled ["Teaching Networks to Solve Optimization Problems"](https://ieeexplore.ieee.org/abstract/document/10414092/authors#authors) got published in IEEE ACCESS!'
-- date: 2024-01-16
-  details: Our paper titled, ["LCOT - Linearized Circular Optimal Transport"](https://openreview.net/pdf?id=49z97Y9lMq) got accepted to ICLR 2024.
-- date: 2024-01-15
-  details: Our paper titled, ["NOLA - Compressing LoRA using Linear Combination of Random Basis"](https://openreview.net/pdf?id=TjfXcDgvzk) got accepted to ICLR 2024.
-- date: 2024-01-04
-  details: '[Eva](/people/xinran-liu/) presented our paper titled [SLoSH - Set Locality Sensitive Hashing via Sliced-Wasserstein Embeddings](https://openaccess.thecvf.com/content/WACV2024/html/Lu_SLoSH_Set_Locality_Sensitive_Hashing_via_Sliced-Wasserstein_Embeddings_WACV_2024_paper.html) at WACV 2024.'
-- date: 2024-01-01
-  details: '[Soheil](/people/soheil-kolouri/) received the [NSF CAREER Award](https://engineering.vanderbilt.edu/2024/01/08/soheil-kolouri-receives-nsf-career-award-to-enhance-machine-learning/)!'
-- date: 2023-02-27
-  details: Congratulations to [Dr. Yikun Bai](/people/yikun-bai/) for acceptance of his paper, titled "[Sliced Optimal Partial Transport](https://arxiv.org/abs/2212.08049)", at [CVPR 2023](https://cvpr2023.thecvf.com/)!
-- date: 2023-02-20
-  details: Congrats to [Harry](/people/zihaowu/) and [Huy](/people/huy-tran/) for acceptance of their paper, titled "Is Multitask Learning an Upper Bound for Continual Learning," at [ICASSP 2023](https://2023.ieeeicassp.org/)!
-- date: 2022-08-08
-  details: A big congratulations to [Ali](/people/ali-abbasi/) for acceptance of his paper, titled "Sparsity and Heterogeneous Dropout for Continual Learning in the Null Space of Neural Activations," at [CoLLAs 2022](https://virtual.lifelong-ml.cc/poster_59.html)!
-- date: 2022-05-27
-  details: Our paper on "Generalized Sliced Probability Metrics" received the Best Paper Award from [IEEE ICASSP 2022](https://2022.ieeeicassp.org/view_paper.php?PaperNum=3608).
-- date: 2022-04-07
-  details: A big congratulations to [Harry](/people/zihaowu/) for his selection to the Vanderbilt Institute for Surgery and Engineering (VISE) Summer Fellows Program!
-- date: 2022-03-12
-  details: '[Ali](/people/ali-abbasi/)''s new preprint, titled "[Sparsity and Heterogeneous Dropout for Continual Learning in the Null Space of Neural Activations](https://arxiv.org/pdf/2203.06514.pdf)" is now available online. This is a joint work with UC-Davis and Johns Hopkins University.'
-- date: 2022-02-08
-  details: 02/08/2022 - [Eva](./people/xinran_liu/index.html)'s new preprint, titled "[Teaching Networks to Solve Optimization Problems](https://arxiv.org/pdf/2202.04104.pdf)" is now available online. This is a joint work with UT-Austin.
-- date: 2022-02-08
-  details: '02/08/2022 - [Bryan](./people/bryan_lu/index.html)''s new preprint, titled "[SLOSH: Set LOcality Sensitive Hashing via Sliced-Wasserstein Embeddings](https://arxiv.org/pdf/2112.05872.pdf)" is now available online.'
-- date: 2021-11-28
-  details: Our paper on "Pooling by Sliced-Wasserstein Embedding" is accepted to NeurIPS 2021. (In collaboration with UPenn and HRL Laboratories)
-- date: 2021-11-28
-  details: Our paper on "Lifelong Learning with Sketched Structural Regularization," is accepted to ACML 2021. (In collaboration with JHU and HRL Laboratories)
-- date: 2021-11-27
-  details: We have an [opening](https://www.vanderbilt.edu/postdoc/position-detail/?id=579) for a postdoctoral researcher focusing on lifelong/continual learning.
-- date: 2021-11-24
-  details: Soheil Kolouri delivered a talk at the One World Seminar on the Mathematics of Machine Learning focused on "Wasserstein Embeddings." ([Video](https://www.youtube.com/watch?v=xs9uibPODGk))
-- date: 2021-11-24
-  details: We have multiple [open positions](/resources/) for Ph.D. students.
-- date: 2021-09-24
-  details: 09/24/2021 - We have an [opening](https://www.vanderbilt.edu/postdoc/position-detail/?id=585) for a postdoctoral researcher focusing on computational optimal transport.
-- date: 2021-06-23
-  details: 06/23/2021 - We have [openings](/resources/) for PhD, MS, and BS students.
-- date: 2021-06-21
-  details: 06/21/2021 - MINT Lab was born.
+  - date: 2026-07-08
+    details: '[Chayne](https://mint-vu.github.io/people/chayne-thrash/) presented our work on[ Zero-Sum SVD](https://icml.cc/virtual/2026/poster/61159) at ICML 2026.'
+  - date: 2026-06-25
+    details: Our Collaborative NSF proposal with [Prof. Rocío Martín](https://rociodm.github.io/) titled, "Generalized Slicers for Efficient and Versatile Computation of Transport-Based Dissimilarities and Assignments," is funded by the DMS office.
+  - date: 2026-06-23
+    details: The Phase 1 of our STTR project with [YRIKKA](https://www.yrikka.com/) titled, "MIRAGE Diffusion – Minimax Inference for Realistic Adversarial Generation" was funded by AFWERX.
+  - date: 2026-05-27
+    details: '[Eva](https://xinranliueva.github.io/) defended her dissertation with stellar comments from her committee members. We have a new doctor in the house!'
+  - date: 2026-01-19
+    details: 'Our paper “[EMPEROR: Efficient Moment-Preserving Representation of Distributions](https://arxiv.org/pdf/2509.16379)” was accepted at ICASSP2026! Congratulations, [Eva](https://xinranliueva.github.io/) and [Shansita](https://shansitads.github.io/).'
+  - date: 2025-11-08
+    details: Congratulations to [Ashkan](/people/ashkan-shahbazi/) and [Ela](/people/elaheh-akbari/) for acceptance of their paper on [Neural-Augmented Kelvinlet for Real-Time Soft Tissue Deformation Modeling](https://arxiv.org/pdf/2506.08043) to AAAI 2026.
+  - date: 2025-11-08
+    details: Congratulations to [Eva](/people/xinran-liu/) for acceptance of her paper on [Policy Search, Retrieval, and Composition via Task Similarity in Collaborative Agentic System](https://arxiv.org/abs/2506.05577) to AAAI 2026.
+  - date: 2025-06-01
+    details: Welcome to our newest lab member, [Ping He](/people/ping-he/)!
+  - date: 2025-05-08
+    details: '[Abi](/people/abikoth/) was selected as the [Banner Bearer](https://engineering.vanderbilt.edu/2025/05/08/engineering-school-bestows-honors-on-2025-graduating-seniors/) for Vanderbilt School of Engineering.'
+  - date: 2025-05-01
+    details: "[Ashkan](/people/ashkan-shahbazi/)'s paper on doubly stochastic attention got accepted to ICML 2025."
+  - date: 2025-04-23
+    details: '[Chayne](/people/chayne-thrash/) and [Abi](/people/abikoth/) presented 5 papers at ICLR 2025, Singapore.'
+  - date: 2025-04-08
+    details: '[Eva](/people/xinran-liu/) passed her Qualifying Exam with stellar feedback from the committee.'
+  - date: 2025-04-01
+    details: '[Chayne](/people/chayne-thrash/) got an internship from Apple for Summer 2025.'
+  - date: 2025-03-27
+    details: '[Abi](/people/abikoth/) was selected as a finalist for the [CRA Outstanding Undergraduate Researcher Award](https://cra.org/about/awards/outstanding-undergraduate-researcher-award/).'
+  - date: 2025-02-11
+    details: One of [Eva](/people/xinran-liu/)'s two papers, accepted at ICLR, was selected as a Spotlight paper!
+  - date: 2024-05-08
+    details: '[Ali](/people/ali-abbasi/) passed his Qualifying Exam with stellar feedback from the committee.'
+  - date: 2024-05-01
+    details: Congratulations to [Huy](/people/huy-tran/) and the team for acceptance of their paper, ["Stereographic Spherical Sliced Wasserstein Distances"](https://arxiv.org/pdf/2402.02345), to ICML 2024.
+  - date: 2024-04-25
+    details: Our paper titled, ["Statistical Context Detection for Deep Lifelong Reinforcement Learning"](https://openreview.net/pdf?id=1XA7nvmxNb) got accepted to CoLLAs 2024.
+  - date: 2024-03-27
+    details: '[Abi](/people/abikoth/) won the university-wide research poster award in Engineering, Computer Science, Data Science, and Mathematics.'
+  - date: 2024-03-22
+    details: Our collaborative paper on ["A Collective AI via Lifelong Learning and Sharing at the Edge"](https://www.nature.com/articles/s42256-024-00800-2) is now published at [Nature Machine Intelligence](https://www.nature.com/natmachintell/).
+  - date: 2024-02-24
+    details: '[Ali](/people/ali-abbasi/)''s paper, titled ["BrainWash - A Poisoning Attack to Forget in Continual Learning"](https://arxiv.org/pdf/2311.11995.pdf) got accepted to [CVPR 2024](https://cvpr.thecvf.com/)!'
+  - date: 2024-02-06
+    details: '[Eva](/people/xinran-liu/)''s paper, titled ["Teaching Networks to Solve Optimization Problems"](https://ieeexplore.ieee.org/abstract/document/10414092/authors#authors) got published in IEEE ACCESS!'
+  - date: 2024-01-16
+    details: Our paper titled, ["LCOT - Linearized Circular Optimal Transport"](https://openreview.net/pdf?id=49z97Y9lMq) got accepted to ICLR 2024.
+  - date: 2024-01-15
+    details: Our paper titled, ["NOLA - Compressing LoRA using Linear Combination of Random Basis"](https://openreview.net/pdf?id=TjfXcDgvzk) got accepted to ICLR 2024.
+  - date: 2024-01-04
+    details: '[Eva](/people/xinran-liu/) presented our paper titled [SLoSH - Set Locality Sensitive Hashing via Sliced-Wasserstein Embeddings](https://openaccess.thecvf.com/content/WACV2024/html/Lu_SLoSH_Set_Locality_Sensitive_Hashing_via_Sliced-Wasserstein_Embeddings_WACV_2024_paper.html) at WACV 2024.'
+  - date: 2024-01-01
+    details: '[Soheil](/people/soheil-kolouri/) received the [NSF CAREER Award](https://engineering.vanderbilt.edu/2024/01/08/soheil-kolouri-receives-nsf-career-award-to-enhance-machine-learning/)!'
+  - date: 2023-02-27
+    details: Congratulations to [Dr. Yikun Bai](/people/yikun-bai/) for acceptance of his paper, titled "[Sliced Optimal Partial Transport](https://arxiv.org/abs/2212.08049)", at [CVPR 2023](https://cvpr2023.thecvf.com/)!
+  - date: 2023-02-20
+    details: Congrats to [Harry](/people/zihaowu/) and [Huy](/people/huy-tran/) for acceptance of their paper, titled "Is Multitask Learning an Upper Bound for Continual Learning," at [ICASSP 2023](https://2023.ieeeicassp.org/)!
+  - date: 2022-08-08
+    details: A big congratulations to [Ali](/people/ali-abbasi/) for acceptance of his paper, titled "Sparsity and Heterogeneous Dropout for Continual Learning in the Null Space of Neural Activations," at [CoLLAs 2022](https://virtual.lifelong-ml.cc/poster_59.html)!
+  - date: 2022-05-27
+    details: Our paper on "Generalized Sliced Probability Metrics" received the Best Paper Award from [IEEE ICASSP 2022](https://2022.ieeeicassp.org/view_paper.php?PaperNum=3608).
+  - date: 2022-04-07
+    details: A big congratulations to [Harry](/people/zihaowu/) for his selection to the Vanderbilt Institute for Surgery and Engineering (VISE) Summer Fellows Program!
+  - date: 2022-03-12
+    details: '[Ali](/people/ali-abbasi/)''s new preprint, titled "[Sparsity and Heterogeneous Dropout for Continual Learning in the Null Space of Neural Activations](https://arxiv.org/pdf/2203.06514.pdf)" is now available online. This is a joint work with UC-Davis and Johns Hopkins University.'
+  - date: 2022-02-08
+    details: 02/08/2022 - [Eva](./people/xinran_liu/index.html)'s new preprint, titled "[Teaching Networks to Solve Optimization Problems](https://arxiv.org/pdf/2202.04104.pdf)" is now available online. This is a joint work with UT-Austin.
+  - date: 2022-02-08
+    details: '02/08/2022 - [Bryan](./people/bryan_lu/index.html)''s new preprint, titled "[SLOSH: Set LOcality Sensitive Hashing via Sliced-Wasserstein Embeddings](https://arxiv.org/pdf/2112.05872.pdf)" is now available online.'
+  - date: 2021-11-28
+    details: Our paper on "Pooling by Sliced-Wasserstein Embedding" is accepted to NeurIPS 2021. (In collaboration with UPenn and HRL Laboratories)
+  - date: 2021-11-28
+    details: Our paper on "Lifelong Learning with Sketched Structural Regularization," is accepted to ACML 2021. (In collaboration with JHU and HRL Laboratories)
+  - date: 2021-11-27
+    details: We have an [opening](https://www.vanderbilt.edu/postdoc/position-detail/?id=579) for a postdoctoral researcher focusing on lifelong/continual learning.
+  - date: 2021-11-24
+    details: Soheil Kolouri delivered a talk at the One World Seminar on the Mathematics of Machine Learning focused on "Wasserstein Embeddings." ([Video](https://www.youtube.com/watch?v=xs9uibPODGk))
+  - date: 2021-11-24
+    details: We have multiple [open positions](/resources/) for Ph.D. students.
+  - date: 2021-09-24
+    details: 09/24/2021 - We have an [opening](https://www.vanderbilt.edu/postdoc/position-detail/?id=585) for a postdoctoral researcher focusing on computational optimal transport.
+  - date: 2021-06-23
+    details: 06/23/2021 - We have [openings](/resources/) for PhD, MS, and BS students.
+  - date: 2021-06-21
+    details: 06/21/2021 - MINT Lab was born.
