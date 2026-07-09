@@ -5,7 +5,7 @@ title: Undergraduate Student
 avatar: RSheng.jpg
 email: robert.sheng@vanderbilt.edu
 website: ''
-now: Software Engineer at Capital One
+now: Software engineer at Capital One
 office: ''
 mail: ''
 fun_fact: When not at his computer, you can usually find Robert either biking or rock climbing!
