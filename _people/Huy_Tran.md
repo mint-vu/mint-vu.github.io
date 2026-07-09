@@ -6,6 +6,7 @@ avatar: HuyTran.jpg
 email: huy.tran@vanderbilt.edu
 website: https://huytranirl.github.io/
 now: PhD student at Vanderbilt University
+left: 2025-08-01
 office: ''
 mail: ''
 fun_fact: Huy takes pride in being the parent of two cats, affectionately named Ashkan and Ali!
