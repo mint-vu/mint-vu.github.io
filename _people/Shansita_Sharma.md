@@ -1,6 +1,6 @@
 ---
 name: Shansita Das Sharma
-position: undergrad
+position: alumni
 title: Undergraduate Student
 avatar: ShansitaSharma.jpg
 email: shansita.d.sharma@vanderbilt.edu
