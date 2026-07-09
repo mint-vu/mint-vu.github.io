@@ -1,7 +1,22 @@
 ---
 layout: default
 ---
-<div class="container content page">
-  <h3 class="page-title">{{ page.name }}</h3>
-  {{ content }}
-</div>
+<main class="profile wrap">
+  <div class="photo">
+    {% if page.avatar %}<img src="{{ '/images/people/' | append: page.avatar | relative_url }}" alt="{{ page.name }}">{% endif %}
+  </div>
+  <div class="bio">
+    <h1>{{ page.name }}</h1>
+    <p class="role">{{ page.title }}{% if page.now %} · now: {{ page.now }}{% endif %}</p>
+    <ul class="meta">
+      {% if page.email %}<li><span class="k">email</span> <a href="mailto:{{ page.email }}">{{ page.email }}</a></li>{% endif %}
+      {% if page.website %}<li><span class="k">web</span> <a href="{{ page.website }}">{{ page.website }}</a></li>{% endif %}
+      {% if page.office %}<li><span class="k">office</span> {{ page.office }}</li>{% endif %}
+      {% if page.mail %}<li><span class="k">mail</span> {{ page.mail }}</li>{% endif %}
+    </ul>
+    {{ content }}
+    {% if page.fun_fact %}
+    <div class="fun-fact"><span class="k">Fun fact</span>{{ page.fun_fact }}</div>
+    {% endif %}
+  </div>
+</main>

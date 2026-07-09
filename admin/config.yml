@@ -1,0 +1,147 @@
+backend:
+  name: github
+  repo: mint-vu/mint-vu.github.io
+  branch: main
+  # After deploying the auth worker (see SETUP.md), set its URL here:
+  base_url: https://YOUR-AUTH-WORKER.workers.dev
+
+site_url: https://mint-vu.github.io
+logo_url: https://mint-vu.github.io/images/logo/logo_square.png
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  # ---------- People ----------
+  - name: people
+    label: People
+    label_singular: Person
+    folder: "_people"
+    create: true
+    slug: "{{name}}"
+    identifier_field: name
+    summary: "{{name}} — {{position}}"
+    sortable_fields: [name, position]
+    media_folder: "/images/people"
+    public_folder: ""
+    fields:
+      - { name: name, label: Name, widget: string }
+      - name: position
+        label: Position
+        widget: select
+        options:
+          - { label: "Principal Investigator", value: pi }
+          - { label: "Postdoc", value: postdoc }
+          - { label: "Graduate Student", value: gradstudent }
+          - { label: "Research Staff", value: researchstaff }
+          - { label: "Visiting Scholar", value: visiting }
+          - { label: "Undergraduate Student", value: undergrad }
+          - { label: "Alumni", value: alumni }
+      - { name: title, label: "Title (e.g. Graduate Student)", widget: string }
+      - { name: avatar, label: Photo, widget: image, hint: "Roughly square photos look best" }
+      - { name: email, label: Email, widget: string, required: false }
+      - { name: website, label: "Personal website", widget: string, required: false }
+      - { name: now, label: "Current position (alumni only, e.g. 'Ph.D. student at UNC')", widget: string, required: false }
+      - { name: office, label: Office, widget: string, required: false }
+      - { name: mail, label: "Mailing address", widget: string, required: false }
+      - { name: fun_fact, label: "Fun fact", widget: string, required: false }
+      - { name: body, label: Bio, widget: markdown }
+
+  # ---------- News ----------
+  - name: site-data
+    label: "News"
+    files:
+      - name: news
+        label: "News & Announcements"
+        file: "_data/news.yml"
+        fields:
+          - name: items
+            label: "News items"
+            label_singular: "News item"
+            widget: list
+            summary: "{{fields.date}} — {{fields.details}}"
+            fields:
+              - { name: date, label: Date, widget: datetime, format: "YYYY-MM-DD", time_format: false }
+              - { name: details, label: Details, widget: markdown, minimal: true, hint: "Links: [text](https://url)" }
+
+  # ---------- Publications ----------
+  - name: pubs-data
+    label: "Publications"
+    files:
+      - name: publications
+        label: "Publication list"
+        file: "_data/publications.yml"
+        fields:
+          - name: publications
+            label: Publications
+            label_singular: Publication
+            widget: list
+            root: true
+            summary: "{{fields.year}} — {{fields.title}}"
+            fields:
+              - { name: title, label: Title, widget: string }
+              - { name: authors, label: Authors, widget: string, hint: "e.g. Liu, X., Bai, Y. and Kolouri, S." }
+              - { name: venue, label: Venue, widget: string, hint: "e.g. ICML, 2025" }
+              - { name: year, label: Year, widget: number, value_type: int }
+              - name: links
+                label: Links
+                widget: list
+                required: false
+                summary: "{{fields.label}}"
+                fields:
+                  - { name: label, label: Label, widget: string, default: "Article" }
+                  - { name: url, label: URL, widget: string }
+
+  # ---------- Homepage ----------
+  - name: home-data
+    label: "Homepage"
+    files:
+      - name: home
+        label: "Homepage content"
+        file: "_data/home.yml"
+        fields:
+          - { name: intro, label: "Intro paragraph", widget: markdown, minimal: true }
+          - { name: news_count, label: "News items shown before 'older news'", widget: number, value_type: int, default: 8 }
+          - { name: publications_count, label: "Recent papers shown", widget: number, value_type: int, default: 6 }
+          - name: hero
+            label: "Lab photo"
+            widget: object
+            fields:
+              - { name: image, label: Photo, widget: image, media_folder: "/images/lab_photos", public_folder: "/images/lab_photos" }
+              - { name: caption, label: Caption, widget: string, required: false }
+          - name: talks
+            label: "Selected talks"
+            label_singular: Talk
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { name: title, label: Title, widget: string }
+              - { name: youtube_id, label: "YouTube video ID", widget: string, hint: "The part after v= in the video URL" }
+          - name: sponsors
+            label: "Sponsor logos"
+            label_singular: Sponsor
+            widget: list
+            required: false
+            summary: "{{fields.name}}"
+            fields:
+              - { name: name, label: Name, widget: string }
+              - { name: logo, label: Logo, widget: image, media_folder: "/images/sponsors", public_folder: "/images/sponsors" }
+
+  # ---------- Pages ----------
+  - name: pages
+    label: Pages
+    files:
+      - name: about
+        label: "About page"
+        file: "about.md"
+        fields:
+          - { name: title, label: Title, widget: string }
+          - { name: permalink, label: Permalink, widget: hidden, default: /about/ }
+          - { name: body, label: Content, widget: markdown }
+      - name: join
+        label: "Join us page"
+        file: "join.md"
+        fields:
+          - { name: title, label: Title, widget: string }
+          - { name: permalink, label: Permalink, widget: hidden, default: /join/ }
+          - { name: body, label: Content, widget: markdown }

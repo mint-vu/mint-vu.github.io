@@ -3,12 +3,11 @@ title: About
 permalink: /about/
 ---
 
-### About us
 We are the Machine Intelligence and Neural Technologies (MINT) Lab at [Vanderbilt University](https://engineering.vanderbilt.edu/). Our overarching focus is on mathematical machine learning and (geometric) deep learning. We strive for Next-Generation Machine Learning algorithms (Next-Gen ML) that address current deficiencies in our technologies regarding sample/label efficiency, explainability, brittleness, and lifelong/continual learning.
 
 ### Research
 
-![Research](/images/others/research.jpg)
+![Research](/images/research.jpg)
 
 Our research is motivated by the ever-increasing demand for automated understanding of data and predictive/generative modeling in real-world problems with a focus on biomedical application. We generally focus on developing practical Machine Learning (ML) and Computer Vision (CV) solutions for challenging problems.  Our current and past research towards NextGen-ML fall under the following broad research directions:
 
@@ -21,7 +20,7 @@ Our research is motivated by the ever-increasing demand for automated understand
 - Adversarial Attacks and Defenses
   - Real-world object level adversarial attacks, Trojan attacks and defenses
 
-Please refer to our [publications](/publication/) for a complete list of papers covering these topics.
+Please refer to our [publications](/publications/) for a complete list of papers covering these topics.
 
 
 ### Lab Members

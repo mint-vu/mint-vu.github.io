@@ -1,0 +1,32 @@
+---
+title: Publications
+permalink: /publications/
+layout: default
+---
+<main class="pubs-page wrap">
+  <header class="page-header">
+    <h1>Publications</h1>
+  </header>
+  <p class="scholar-note">For citation metrics, see our <a href="{{ site.scholar }}">Google Scholar profile</a>. We include links for all of our papers — if you cannot access one, <a href="mailto:{{ site.email }}">let us know</a>.</p>
+
+  {% assign pubs = site.data.publications | sort: "year" | reverse %}
+  {% assign years = pubs | map: "year" | uniq %}
+  {% for y in years %}
+  <h2 class="year">{{ y }}</h2>
+  <div class="entries">
+      {% assign in_year = pubs | where: "year", y %}
+      {% for p in in_year %}
+      <div class="pub-entry">
+        <p class="title">{{ p.title }}</p>
+        <p class="authors">{{ p.authors }}</p>
+        <p class="venue">{{ p.venue }}</p>
+        <div class="pub-links">
+          {% for l in p.links %}<a href="{{ l.url }}">{{ l.label }}</a>{% endfor %}
+        </div>
+      </div>
+      {% endfor %}
+  </div>
+  {% endfor %}
+
+  <p class="copyright-note">The documents listed here are provided to ensure timely dissemination of scholarly and technical work on a noncommercial basis. Copyright and all rights therein are maintained by the authors or by other copyright holders. These works may not be re-posted without the explicit permission of the copyright holder.</p>
+</main>

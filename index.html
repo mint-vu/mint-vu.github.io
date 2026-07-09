@@ -2,99 +2,90 @@
 layout: default
 ---
 
-<div class='container'>
-    <header class="masthead text-center">
+{% assign home = site.data.home %}
 
-      <img class='img-responsive center-block' src="/images/mintlab.png" width="100%" height="100%" />
+<section class="hero wrap">
+  <figure class="lab-photo">
+    <img src="{{ home.hero.image | relative_url }}" alt="{{ home.hero.caption }}">
+    {% if home.hero.caption %}<figcaption>{{ home.hero.caption }}</figcaption>{% endif %}
+  </figure>
+</section>
 
-      <p>
-      <i>Welcome to the Machine Intelligence and Neural Technologies (MINT) Lab at Vanderbilt University.</i><br>
-      <i> Our overarching focus is on mathematical machine learning and (geometric) deep learning.</i>
+<section class="intro wrap">
+  {{ home.intro | markdownify }}
+</section>
 
+<section class="wrap">
+  <div class="sec-head"><h2>News and Announcements</h2></div>
+  <ul class="news-list">
+    {% assign sorted_news = site.data.news.items | sort: "date" | reverse %}
+    {% for n in sorted_news %}
+    <li{% if forloop.index > home.news_count %} class="hidden-news"{% endif %}><span class="date">{{ n.date | date: "%m/%Y" }}.</span>
+      {{ n.details | markdownify }}</li>
+    {% endfor %}
+  </ul>
+  {% if sorted_news.size > home.news_count %}
+  <button class="news-more" onclick="document.querySelectorAll('.hidden-news').forEach(e=>e.classList.remove('hidden-news'));this.remove()">older news ▼</button>
+  {% endif %}
+</section>
 
-        <span style="display: block; margin-bottom: 3em"></span>
-
-      <a href="https://github.com/mint-vu"><i class="fa fa-github"></i> MINT-Lab</a>&nbsp;&nbsp;&nbsp;
-      <a href="https://twitter.com/skolouri"><i class="fa fa-twitter"></i> MINT-Lab</a>&nbsp;&nbsp;&nbsp;
-      <a href="mailto:soheil.kolouri@vanderbilt.edu"><i class="fa fa-envelope-o"></i> soheil.kolouri@vanderbilt.edu</a>
-      </p>
-
-      <div class="w3-container" style="   background: #fdf4ec; padding: 25px; border-radius:10px; border: 1px solid #FFFFFF">
-        <div style="text-align:left">
-          <h3> Recent News </h3>
-          <span style="display: block; margin-bottom: 1em"></span>
-          <div class="news">
-              {% capture now %}{{'now' | date: '%s' | minus: 40000000 %}}{% endcapture %}
-              <ul style="list-style-position:outside;padding:20px" >
-                {% for new in site.data.news %}
-                  {% capture date %}{{new.date | date: '%s' | plus: 0 %}}{% endcapture %}
-                  {% if date > now %}
-                    <li>
-                      <span>
-                        {{ new.details }}
-                      </span>
-                    </li>
-                  {% endif %}
-                {% endfor %}
-              </ul>
-          </div>
-        </div >
+<section class="wrap">
+  <div class="sec-head">
+    <h2>Recent Papers</h2>
+    <a class="side" href="{{ '/publications/' | relative_url }}">all publications →</a>
+  </div>
+  <div class="pub-cards">
+    {% assign recent = site.data.publications | sort: "year" | reverse %}
+    {% for p in recent limit: home.publications_count %}
+      {% if p.links.first %}
+      <a class="pub-card" href="{{ p.links.first.url }}">
+        <p class="title">{{ p.title }}</p>
+        <p class="venue">{{ p.venue }}</p>
+      </a>
+      {% else %}
+      <div class="pub-card">
+        <p class="title">{{ p.title }}</p>
+        <p class="venue">{{ p.venue }}</p>
       </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
 
+<section class="wrap">
+  <div class="sec-head"><h2>Selected Talks</h2></div>
+  <div class="talk-grid">
+    {% for t in home.talks %}
+    <div class="talk">
+      <button class="frame" aria-label="Play: {{ t.title }}" data-yt="{{ t.youtube_id }}" onclick="playTalk(this)">
+        <img src="https://i.ytimg.com/vi/{{ t.youtube_id }}/hqdefault.jpg" alt="" loading="lazy">
+      </button>
+      <h3>{{ t.title }}</h3>
+    </div>
+    {% endfor %}
+  </div>
+</section>
 
-      <span style="display: block; margin-bottom: 3em"></span>
-      <div style="text-align:left">
-        <h2> Selected Talks </h2>
-      </div>
+{% if home.sponsors and home.sponsors.size > 0 %}
+<section class="wrap sponsors">
+  <p class="label">Current and past sponsors</p>
+  <div class="sponsor-row">
+    {% for s in home.sponsors %}
+    <img src="{{ s.logo | relative_url }}" alt="{{ s.name }}" title="{{ s.name }}" loading="lazy">
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
 
-
-      <span style="display: block; margin-bottom: 3em"></span>
-      <div style="text-align:left">
-        <h3> One World Mathematics of Machine Learning </h3>
-      </div>
-      <span style="display: block; margin-bottom: 3em"></span>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/xs9uibPODGk" title="Wasserstein Embeddings" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-      <span style="display: block; margin-bottom: 3em"></span>
-      <div style="text-align:left">
-        <h3> Mathematics of AI - Transformer Networks </h3>
-      </div>
-      <span style="display: block; margin-bottom: 3em"></span>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/T6JMMEkKb0s?si=Z8UGLB7o0nadDYtD" title="Transformer Networks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
-      <span style="display: block; margin-bottom: 3em"></span>
-      <div style="text-align:left">
-        <h3> Four Part Mini Course - Fields Institute</h3>
-      </div>
-      <span style="display: block; margin-bottom: 3em"></span>
-      <div class="video-grid">
-        <!-- Replace 'VIDEO_ID1' to 'VIDEO_ID4' with actual YouTube video IDs -->
-        <iframe src="https://www.youtube.com/embed/c5ZbfAfH1r4" title="Part A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe src="https://www.youtube.com/embed/48sE-UeFF4Q" title="Part B" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe src="https://www.youtube.com/embed/97vyqhaMy-8" title="Part C" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe src="https://www.youtube.com/embed/a3bxvtzEO_A" title="Part D" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-
-      <span style="display: block; margin-bottom: 3em"></span>
-      <div style="text-align:left">
-        <h3> MATRIX Fall Seminar 2022</h3>
-      </div>
-      <span style="display: block; margin-bottom: 3em"></span>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/YwvuISleNr0" title="Wasserstein Embeddings" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-      <span style="display: block; margin-bottom: 3em"></span>
-
-<!--
-      <a class="twitter-timeline" href="https://twitter.com/KordingLab" data-widget-id="695051708246941697">Tweets by @KordingLab</a>
-      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> -->
-
-      <span style="display: block; margin-bottom: 3em"></span>
-      373 Featheringill-Jacobs Hall, 400 24th Ave S Rm 254, Nashville, TN 37212
-      <span style="display: block; margin-bottom: .1em"></span>
-      Website adopted from <a href="https://github.com/KordingLab/KordingLab.github.io/">KordingLab</a>
-      <span style="display: block; margin-bottom: 3em"></span>
-
-    </header>
-</div>
+<script>
+  function playTalk(btn) {
+    const id = btn.dataset.yt;
+    const f = document.createElement('iframe');
+    f.src = 'https://www.youtube.com/embed/' + id + '?autoplay=1';
+    f.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+    f.allowFullscreen = true;
+    const holder = document.createElement('div'); holder.className = 'frame';
+    holder.appendChild(f);
+    btn.replaceWith(holder);
+  }
+</script>

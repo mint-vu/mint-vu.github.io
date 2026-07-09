@@ -1,0 +1,32 @@
+# Homepage content — editable via the CMS (Site content → Homepage)
+intro: >
+  The **M**achine **I**ntelligence and **N**eural **T**echnologies lab, *MINT*, at
+  [Vanderbilt University](https://engineering.vanderbilt.edu/) pursues fundamental research in
+  mathematical machine learning and geometric deep learning. We develop Next-Generation
+  Machine Learning algorithms grounded in computational optimal transport and geometry —
+  addressing sample and label efficiency, explainability, robustness, and lifelong learning.
+
+news_count: 8
+
+publications_count: 6
+
+hero:
+  image: /images/lab_photos/CVPR2023_1.jpg
+  caption: The MINT Lab at CVPR 2023, Vancouver
+
+talks:
+  - title: One World Mathematics of Machine Learning — Wasserstein Embeddings
+    youtube_id: xs9uibPODGk
+  - title: Mathematics of AI — Transformer Networks
+    youtube_id: T6JMMEkKb0s
+  - title: Fields Institute Mini Course — Part A
+    youtube_id: c5ZbfAfH1r4
+  - title: Fields Institute Mini Course — Part B
+    youtube_id: 48sE-UeFF4Q
+  - title: Fields Institute Mini Course — Part C
+    youtube_id: 97vyqhaMy-8
+  - title: Fields Institute Mini Course — Part D
+    youtube_id: a3bxvtzEO_A
+
+# Sponsor logos (optional) — add via CMS: name + logo image
+sponsors: []

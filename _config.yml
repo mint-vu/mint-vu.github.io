@@ -1,65 +1,55 @@
-# # # # # # # #
-#   K i k o   #
-# # # # # # # #
+name: "MINT Lab"
+title: "MINT Lab — Machine Intelligence and Neural Technologies, Vanderbilt University"
+description: "The Machine Intelligence and Neural Technologies (MINT) Lab at Vanderbilt University. Mathematical machine learning, geometric deep learning, and computational optimal transport."
 
-# Basic
-name:               "MINT Lab"
-title:              "MINT Lab at Vanderbilt University"
-description:        "this is a page for MINT Lab, we are the Machine Intelligence and Neural Technologies Lab at Vanderbilt Unviersity, Nashville, TN."
+url: https://mint-vu.github.io
+baseurl: ""
+permalink: /:year/:month/:day/:title.html
 
+email: soheil.kolouri@vanderbilt.edu
+github: https://github.com/mint-vu
+twitter: https://twitter.com/skolouri
+scholar: https://scholar.google.com/citations?user=yREBSy0AAAAJ&hl=en
+address: "Department of Computer Science, Vanderbilt University — 400 24th Ave S, Nashville, TN 37212"
 
-# URL
-url:                https://mint-vu.github.io
-baseurl:
-#baseurl:            "" #For Root Domain
-permalink:          /:year/:month/:day/:title.html
+markdown: kramdown
+highlighter: rouge
 
-# Markdown
-markdown:           kramdown
-
-# Highlighter
-highlighter:        rouge
-
-# Navigation
-nav:
-  - name:           "home"
-    href:           "/"
-  - name:           "about"
-    href:           "/about"
-  - name:           "people"
-    href:           "/people"
-  - name:           "publications"
-    href:           "/publication"
-  - name:           "resources"
-    href:           "/resources"
-
-# Sass
 sass:
-  style:            :compressed
+  style: compressed
 
-# Scopes
-defaults:
-  -
-    scope:
-      path:         ""
-      type:         "pages"
-    values:
-      layout:       "page"
-  -
-    scope:
-      path:         ""
-      type:         "posts"
-    values:
-      layout:       "post"
-  -
-    scope:
-      path:         ""
-      type:         "people"
-    values:
-      layout:       "profile"
-
+nav:
+  - name: "home"
+    href: "/"
+  - name: "about"
+    href: "/about/"
+  - name: "people"
+    href: "/people/"
+  - name: "publications"
+    href: "/publications/"
+  - name: "join"
+    href: "/join/"
 
 collections:
   people:
     output: true
-    permalink: /people/:title/index.html
+    permalink: /people/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "people"
+    values:
+      layout: "profile"
+
+exclude:
+  - README.md
+  - SETUP.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

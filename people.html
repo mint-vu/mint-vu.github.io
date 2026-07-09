@@ -1,0 +1,48 @@
+---
+title: People
+permalink: /people/
+layout: default
+---
+<main class="page wrap">
+  <header class="page-header">
+    <h1>People</h1>
+  </header>
+
+  {% assign people_sorted = site.people | sort: 'name' %}
+  {% assign roles = "pi:Principal Investigator|postdoc:Postdoctoral Fellows|gradstudent:Graduate Students|researchstaff:Research Staff|visiting:Visiting Scholars|undergrad:Undergraduate Students" | split: "|" %}
+  {% for r in roles %}
+    {% assign pair = r | split: ":" %}
+    {% assign in_role = people_sorted | where: 'position', pair[0] %}
+    {% if in_role.size > 0 %}
+    <section class="people-section">
+      <h2>{{ pair[1] }}</h2>
+      <div class="people-grid">
+        {% for p in in_role %}
+        <div class="person-card">
+          <a href="{{ p.url | relative_url }}">
+            <img src="{{ '/images/people/' | append: p.avatar | relative_url }}" alt="{{ p.name }}" loading="lazy">
+            <p class="name">{{ p.name }}</p>
+            <p class="role">{{ p.title }}</p>
+          </a>
+        </div>
+        {% endfor %}
+      </div>
+    </section>
+    {% endif %}
+  {% endfor %}
+
+  {% assign alumni = people_sorted | where: 'position', 'alumni' %}
+  {% if alumni.size > 0 %}
+  <section class="people-section">
+    <h2>Alumni</h2>
+    <ul class="alumni-list">
+      {% for p in alumni %}
+      <li>
+        <a class="name" href="{{ p.url | relative_url }}">{{ p.name }}</a>
+        {% if p.now %}<span class="now">{{ p.now }}</span>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+</main>
