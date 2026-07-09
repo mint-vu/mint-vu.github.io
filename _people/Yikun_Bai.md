@@ -6,6 +6,7 @@ avatar: YikunBai.jpeg
 email: yikun.bai@vanderbilt.edu
 website: https://yikun-baio.github.io
 now: Postdoctoral Research Assistant - Physical AI Fellow - Purdue University
+left: 2025-12-20
 office: ''
 mail: ''
 fun_fact: Yikun likes watching animes!
