@@ -35,10 +35,17 @@
   venue: AAAI 2026
   year: 2026
   links:
-    - label: Article
-      url: https://ojs.aaai.org/index.php/AAAI/article/view/39633
     - label: Code
       url: https://github.com/DMIU-ShELL/MOSAIC
+    - label: Article
+      url: https://ojs.aaai.org/index.php/AAAI/article/view/39633
+- title: 'Knowledge distillation and dataset distillation of large language models: Emerging trends, challenges, and future directions.'
+  authors: Fang, Luyang, Xiaowei Yu, Jiazhang Cai, Yongkai Chen, Shushan Wu, Zhengliang Liu, Zhenyuan Yang et al.
+  venue: Artificial Intelligence Review, 2025
+  year: 2025
+  links:
+    - label: Article
+      url: https://link.springer.com/article/10.1007/s10462-025-11423-3
 - title: 'ESPformer: Doubly-Stochastic Attention with Expected Sliced Transport Plans'
   authors: Shahbazi, A., Akbari, E., Salehi, D., Liu, X., NaderiAlizadeh, N., Kolouri, S.
   venue: ICML, 2025
