@@ -6,6 +6,7 @@ avatar: KaiwenShi.jpg
 email: kaiwen.shi@vanderbilt.edu
 website: https://kwfredshi.github.io/
 now: PhD student in CS at Vanderbilt
+left: 2025-05-15
 office: ''
 mail: ''
 fun_fact: Kaiwen loves talking to new people, reading wonderful novels, playing various sports, and cooking
