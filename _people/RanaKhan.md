@@ -1,11 +1,14 @@
 ---
 name: Rana Khan
 position: alumni
-avatar: RanaKhan.jpg
 title: Undergraduate Student
-now: Ph.D. student at UNC Chapel Hill
+avatar: RanaKhan.jpg
 email: rana.muhammad.shahroz.khan@vanderbilt.edu
 website: https://rana-shahroz.github.io
+now: Ph.D. student at UNC Chapel Hill
+left: 2024-05-15
+office: ''
+mail: ''
 fun_fact: Rana is ambidextrous. He can do anything with both hands.
 ---
 
