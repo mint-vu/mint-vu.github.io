@@ -12,7 +12,12 @@
   <link rel="shortcut icon" href="{{ '/images/logo/logo_square.png' | relative_url }}">
   <meta property="og:title" content="{{ page.title | default: site.title }}">
   <meta property="og:description" content="{{ page.description | default: site.description }}">
-  <meta property="og:image" content="{{ site.url }}/images/lab_photos/CVPR2023_1.jpg">
+  {% assign og_img = site.data.home.hero.image | default: '/images/lab_photos/CVPR2023_1.jpg' %}
+  <meta property="og:image" content="{{ site.url }}{{ og_img }}?v={{ site.time | date: '%s' }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="{{ site.url }}{{ og_img }}?v={{ site.time | date: '%s' }}">
 </head>
 <body>
 
