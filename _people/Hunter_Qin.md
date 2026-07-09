@@ -6,6 +6,7 @@ avatar: HunterQin.jpg
 email: haoran.qin@vanderbilt.edu
 website: https://niqretnuh.github.io
 now: Ph.D. University at Duke University
+left: 2026-05-15
 office: ''
 mail: ''
 fun_fact: Hunter has played classical piano at the Kennedy Center and Sydney Opera House.
