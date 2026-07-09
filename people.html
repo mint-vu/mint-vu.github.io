@@ -36,9 +36,11 @@ layout: default
   <section class="people-section">
     <h2>Alumni</h2>
     <ul class="alumni-list">
-      {% for p in alumni %}
+      {% assign alumni_sorted = alumni | sort: 'left', 'first' | reverse %}
+      {% for p in alumni_sorted %}
       <li>
         <a class="name" href="{{ p.url | relative_url }}">{{ p.name }}</a>
+        {% if p.left %}<span class="left-date">{{ p.left | date: "%Y" }}</span>{% endif %}
         {% if p.now %}<span class="now">{{ p.now }}</span>{% endif %}
       </li>
       {% endfor %}

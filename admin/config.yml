@@ -42,6 +42,7 @@ collections:
       - { name: email, label: Email, widget: string, required: false }
       - { name: website, label: "Personal website", widget: string, required: false }
       - { name: now, label: "Current position (alumni only, e.g. 'Ph.D. student at UNC')", widget: string, required: false }
+      - { name: left, label: "Departure date (alumni only — used to sort the alumni list)", widget: datetime, format: "YYYY-MM-DD", time_format: false, required: false }
       - { name: office, label: Office, widget: string, required: false }
       - { name: mail, label: "Mailing address", widget: string, required: false }
       - { name: fun_fact, label: "Fun fact", widget: string, required: false }
