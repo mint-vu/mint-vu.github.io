@@ -1,10 +1,13 @@
 ---
 name: Xinran (Eva) Liu
-position: gradstudent
-avatar: XinranLiu.jpeg
+position: alumni
 title: Graduate Student
+avatar: XinranLiu.jpeg
 email: xinran.liu@vanderbilt.edu
 website: https://xinranliueva.github.io/
+now: Postdoc Harvard University
+office: ''
+mail: ''
 fun_fact: Eva's favorite flower is peony!
 ---
 

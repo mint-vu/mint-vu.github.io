@@ -1,10 +1,13 @@
 ---
 name: Huy Tran
 position: alumni
-avatar: HuyTran.jpg
 title: Graduate Student
+avatar: HuyTran.jpg
 email: huy.tran@vanderbilt.edu
 website: https://huytranirl.github.io/
+now: PhD student at Vanderbilt University
+office: ''
+mail: ''
 fun_fact: Huy takes pride in being the parent of two cats, affectionately named Ashkan and Ali!
 ---
 

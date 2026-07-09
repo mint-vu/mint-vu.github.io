@@ -1,19 +1,9 @@
-# Homepage content — editable via the CMS (Site content → Homepage)
-intro: >
-  The **M**achine **I**ntelligence and **N**eural **T**echnologies lab, *MINT*, at
-  [Vanderbilt University](https://engineering.vanderbilt.edu/) pursues fundamental research in
-  mathematical machine learning and geometric deep learning. We develop Next-Generation
-  Machine Learning algorithms grounded in computational optimal transport and geometry —
-  addressing sample and label efficiency, explainability, robustness, and lifelong learning.
-
+intro: The **M**achine **I**ntelligence and **N**eural **T**echnologies lab, _MINT_, at [Vanderbilt University](https://engineering.vanderbilt.edu/) pursues fundamental research in mathematical machine learning and geometric deep learning. We develop next-generation machine learning algorithms grounded in computational optimal transport and geometric methods, with a focus on building efficient, robust, and continually adaptive AI systems.
 news_count: 8
-
 publications_count: 6
-
 hero:
-  image: /images/lab_photos/CVPR2023_1.jpg
-  caption: The MINT Lab at CVPR 2023, Vancouver
-
+  image: /images/lab_photos/IMG_1989.jpg
+  caption: The MINT Lab at Summer 2026
 talks:
   - title: One World Mathematics of Machine Learning — Wasserstein Embeddings
     youtube_id: xs9uibPODGk
@@ -27,6 +17,16 @@ talks:
     youtube_id: 97vyqhaMy-8
   - title: Fields Institute Mini Course — Part D
     youtube_id: a3bxvtzEO_A
-
-# Sponsor logos (optional) — add via CMS: name + logo image
-sponsors: []
+sponsors:
+  - name: NSF
+    logo: /images/sponsors/NSF_Official_logo_Med_Res_600ppi_rectangle.png
+  - name: DARPA
+    logo: /images/sponsors/DARPA.jpeg
+  - name: NIH
+    logo: /images/sponsors/NIH_2013_logo_vertical.svg
+  - name: Wellcome Trust
+    logo: /images/sponsors/Wellcome.png
+  - name: Toyota
+    logo: /images/sponsors/toyota.jpg
+  - name: NVIDIA
+    logo: /images/sponsors/NVIDIA.jpg
