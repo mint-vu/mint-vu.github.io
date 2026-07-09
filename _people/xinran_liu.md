@@ -6,6 +6,7 @@ avatar: XinranLiu.jpeg
 email: xinran.liu@vanderbilt.edu
 website: https://xinranliueva.github.io/
 now: Postdoc Harvard University
+left: 2026-05-25
 office: ''
 mail: ''
 fun_fact: Eva's favorite flower is peony!
