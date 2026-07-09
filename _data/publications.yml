@@ -30,6 +30,15 @@
       url: https://ojs.aaai.org/index.php/AAAI/article/view/39716
     - label: Code
       url: https://github.com/mint-vu/neural-augmented-kelvinlet-leap
+- title: Policy search, retrieval, and composition via task similarity in collaborative agentic systems.
+  authors: Nath, S., Peridis, C., Benjamin, E., Liu, X., Kolouri, S., Kinnell, P., Li, Z., Liu, C., Dora, S. and Soltoggio, A.
+  venue: AAAI 2026
+  year: 2026
+  links:
+    - label: Article
+      url: https://ojs.aaai.org/index.php/AAAI/article/view/39633
+    - label: Code
+      url: https://github.com/DMIU-ShELL/MOSAIC
 - title: 'ESPformer: Doubly-Stochastic Attention with Expected Sliced Transport Plans'
   authors: Shahbazi, A., Akbari, E., Salehi, D., Liu, X., NaderiAlizadeh, N., Kolouri, S.
   venue: ICML, 2025
