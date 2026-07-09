@@ -6,6 +6,7 @@ avatar: ShansitaSharma.jpg
 email: shansita.d.sharma@vanderbilt.edu
 website: https://shansitads.github.io/
 now: Ph.D. student at USC
+left: 2026-05-15
 office: ''
 mail: ''
 fun_fact: Shansita enjoys playing badminton and learning random bits from different languages!
