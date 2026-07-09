@@ -6,6 +6,7 @@ avatar: TobyZhu.jpg
 email: xiaoliang.zhu@vanderbilt.edu
 website: ''
 now: Software Engineer at Goldman Sachs
+left: 2024-05-15
 office: ''
 mail: ''
 fun_fact: ''
