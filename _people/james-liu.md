@@ -2,7 +2,7 @@
 name: James Liu
 position: undergrad
 title: Undergraduate Researcher
-avatar: pasted-image-1787948679236.png
+avatar: JamesLiu.jpg
 email: junzhe.liu@Vanderbilt.Edu
 website: https://cuiniaooo.github.io
 now: ''
