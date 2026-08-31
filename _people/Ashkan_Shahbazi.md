@@ -1,10 +1,14 @@
 ---
 name: Ashkan Shahbazi
 position: gradstudent
-avatar: AshkanShahbazi.jpg
 title: Graduate Student
+avatar: pasted-image-1788191553832.png
 email: ashkan.shahbazi@vanderbilt.edu
 website: https://ashkan13776.github.io/
+now: ''
+left: ''
+office: ''
+mail: ''
 fun_fact: Ashkan loves digital painting!
 ---
 
