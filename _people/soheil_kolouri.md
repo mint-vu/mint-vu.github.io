@@ -1,10 +1,12 @@
 ---
 name: Soheil Kolouri
 position: pi
-avatar: soheil_kolouri.png
 title: Assistant Professor of Computer Science
+avatar: soheil_2026_sq.jpg
 email: soheil.kolouri@vanderbilt.edu
 website: http://skolouri.github.io/
+now: ''
+left: ''
 office: Featheringill-Jacobs Hall
 mail: 400 24th Ave S Rm 254, Nashville, TN 37212
 fun_fact: During his high school and college years, Soheil had a penchant for sketching caricatures of all his teachers and professors!
